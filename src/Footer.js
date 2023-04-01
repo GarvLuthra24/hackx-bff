@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="Footer bg-red-600">
-      <div className=" bg-gray-600 h-2/3 text-white">
-        <div className=" flex flex-row  h-2/3 w-4/5 justify-around bg-red-400 ml-auto mr-auto mb-2 mt-2">
+      <div className=" bg-gray-600 h-2/3 pt-10  text-white">
+        <div className=" flex flex-row   h-4/5  justify-around max-w-4xl rounded-md dark:bg-gray-800 ml-auto mr-auto mb-2 mt-2">
           <div className=" flex flex-col w-1/4">
             <ul>
               <li className=" text-xl mb-5">ABOUT</li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="text-xl flex flex-col">
             <div className="mb-5 text-left">CONTACT INFO</div>
-            <div className="flex bg-orange-500 flex-row  items justify-left align-baseline text-left">
+            <div className="flex  flex-row items mb-2 justify-left align-baseline text-left">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -46,7 +46,7 @@ const Footer = () => {
               <div className=" text-sm"> 9999999999</div>
             </div>
 
-            <div className="flex flex-row items-center justify-evenly align-baseline">
+            <div className="flex flex-row items-center justify-evenly align-baseline mb-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -59,8 +59,18 @@ const Footer = () => {
 
               <div className=" text-sm">demo@demo.com</div>
             </div>
+            <div className="flex flex-row items-center justify-evenly align-baseline">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+</svg>
+              <div className=" text-sm">demo@demo.com</div>
+            </div>
           </div>
         </div>
+
+
+         {/* bottom footer */}
 
         <footer class="bg-white rounded-lg shadow mt-4 dark:bg-gray-800 min-w-full">
           <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
