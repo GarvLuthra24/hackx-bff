@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="Footer bg-red-600">
-      <div className=" bg-footer-main h-2/3 pt-10  text-white">
-        <div className=" flex flex-row   h-4/5  justify-around max-w-4xl rounded-md dark:bg-gray-800 ml-auto mr-auto mb-2 mt-2">
+      <div className=" bg-footer-main  h-2/3 pt-10  text-white">
+        <div className=" flex flex-row   h-4/5  justify-around max-w-5xl rounded-md p-5  bg-footer-dark ml-auto mr-auto my-2">
           <div className=" flex flex-col w-1/4">
             <ul>
               <li className=" text-xl mb-5 text-left">ABOUT</li>
@@ -72,16 +72,16 @@ const Footer = () => {
 
          {/* bottom footer */}
 
-        <footer class="bg-white rounded-lg shadow mt-10 dark:bg-gray-800 min-w-full pt">
+        <footer class="bg-white rounded-lg shadow mt-10 bg-footer-dark min-w-full pt">
           <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span class="text-sm text-white sm:text-center ">
               © 2023{" "}
               <a href="https://flowbite.com/" class="hover:underline">
                 Flowbite™
               </a>
               . All Rights Reserved.
             </span>
-            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
               <li className="mr-5">
                 <p>Stay Connected:</p>
               </li>
