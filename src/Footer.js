@@ -7,7 +7,7 @@ const Footer = () => {
         <div className=" flex flex-row   h-4/5  justify-around max-w-4xl rounded-md dark:bg-gray-800 ml-auto mr-auto mb-2 mt-2">
           <div className=" flex flex-col w-1/4">
             <ul>
-              <li className=" text-xl mb-5">ABOUT</li>
+              <li className=" text-xl mb-5 text-left">ABOUT</li>
               <li className=" text-left text-sm">
                 Recycle WordPress Theme was designed to promote environmental
                 quality, recycling and corporate sustainability. It is suitable
@@ -18,8 +18,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className=" mb-5 text-xl">MENU</h1>
-            <ul>
+            <h1 className=" mb-5 text-xl text-left">MENU</h1>
+            <ul className="text-left">
               <li className="mb-1">link1</li>
               <li className="mb-1">link2</li>
               <li className="mb-1">link3</li>
@@ -43,7 +43,7 @@ const Footer = () => {
                 />
               </svg>
 
-              <div className=" text-sm"> 9999999999</div>
+              <div className=" text-sm pl-2"> 9999999999</div>
             </div>
 
             <div className="flex flex-row items-center justify-evenly align-baseline mb-2">
@@ -57,14 +57,14 @@ const Footer = () => {
                 <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
               </svg>
 
-              <div className=" text-sm">demo@demo.com</div>
+              <div className=" text-sm pl-2">demo@demo.com</div>
             </div>
             <div className="flex flex-row items-center justify-evenly align-baseline">
            
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
 </svg>
-              <div className=" text-sm">demo@demo.com</div>
+              <div className=" text-sm pl-2">demo@demo.com</div>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
          {/* bottom footer */}
 
-        <footer class="bg-white rounded-lg shadow mt-4 dark:bg-gray-800 min-w-full">
+        <footer class="bg-white rounded-lg shadow mt-10 dark:bg-gray-800 min-w-full pt">
           <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2023{" "}
